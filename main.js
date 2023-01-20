@@ -47,11 +47,11 @@ function geraNumeroAleatorio() {
 // *Caso queia gerar um número de CPF aleatório, novo.
 // *--------------------------------------------------------
 let CPF = CriaCPF();
-let CPFExistente = new ValidaCPF(CPF);
+let CPFAtual = new ValidaCPF(CPF);
 
-while (!CPFExistente.valida()) {
+while (!CPFAtual.valida()) {
   CPF = CriaCPF();
-  CPFExistente = new ValidaCPF(CPF);
+  CPFAtual = new ValidaCPF(CPF);
 }
 
 // *-------------------------------------------------------- 
@@ -60,6 +60,6 @@ while (!CPFExistente.valida()) {
 // *atribuir um valor arbitrário a CPFExistente.
 // *Conforme exemplo abaixo.
 // *--------------------------------------------------------
-// const CPFExistente = new ValidaCPF("813.286.286-47");
+// const CPFAtual = new ValidaCPF("813.286.286-47");
 
-console.log(CPFExistente.valida() ? `${CPF} - CPF Válido!` : `${CPF} - CPF Inválido!`);
+console.log(CPFAtual.valida() ? `${CPF} - CPF Válido!` : `${CPF} - CPF Inválido!`);
