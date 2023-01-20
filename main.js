@@ -54,6 +54,8 @@ while (!CPFAtual.valida()) {
   CPFAtual = new ValidaCPF(CPF);
 }
 
+console.log(`${CPF} - CPF Gerado com sucesso!`);
+
 // *-------------------------------------------------------- 
 // *Caso queria verificar um número de CPF já existente, 
 // *basta desconsiderar as linhas 49 a 55, e apenas
@@ -62,4 +64,4 @@ while (!CPFAtual.valida()) {
 // *--------------------------------------------------------
 // const CPFAtual = new ValidaCPF("813.286.286-47");
 
-console.log(CPFAtual.valida() ? `${CPF} - CPF Válido!` : `${CPF} - CPF Inválido!`);
+// console.log(CPFAtual.valida() ? `${CPF} - CPF Válido!` : `${CPF} - CPF Inválido!`);
