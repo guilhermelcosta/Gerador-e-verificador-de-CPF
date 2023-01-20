@@ -14,5 +14,5 @@ Como a validação pode não ocorrer no primeiro código gerado, sugiro que seja
 
 Diferente do processo de criação do CPF, a sua validação depende apenas do construtor ```ValidaCPF```, que terá como parâmetro o CPF que deseja verificar, conforme ilutrado a seguir.
 
-![image](https://user-images.githubusercontent.com/108747806/213823165-8de3c770-19a4-4efe-9a45-a5973a126cda.png)
+<img src="https://user-images.githubusercontent.com/108747806/213823165-8de3c770-19a4-4efe-9a45-a5973a126cda.pn" width="800px">
 
