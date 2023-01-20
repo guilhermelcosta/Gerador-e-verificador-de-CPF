@@ -8,7 +8,7 @@ Crie uma variavel, e atribua a ela a função ```CriaCPF()```, ela irá retornar
 
 Como a validação pode não ocorrer no primeiro código gerado, sugiro que seja criada uma estrutura de loop, para verificar a validade do CPF gerado.
 
-<img src="[https://user-images.githubusercontent.com/108747806/213822810-43edbe38-fe14-41ac-b206-c1ad431bffb0.png](https://user-images.githubusercontent.com/108747806/213822966-ba12eb40-390e-4216-b9d5-fa4da53af143.png)" width="800px">
+<img src="https://user-images.githubusercontent.com/108747806/213822966-ba12eb40-390e-4216-b9d5-fa4da53af143.png" width="800px">
 
 ## Para verificar a validade de um CPF já existente:
 
