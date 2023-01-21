@@ -62,6 +62,6 @@ console.log(`${CPF} - CPF Gerado com sucesso!`);
 // *atribuir um valor arbitrário a CPFExistente.
 // *Conforme exemplo abaixo.
 // *--------------------------------------------------------
-// const CPFAtual = new ValidaCPF("813.286.286-47");
+// const CPFAtual = new ValidaCPF("922.797.246-34");
 
-// console.log(CPFAtual.valida() ? `${CPF} - CPF Válido!` : `${CPF} - CPF Inválido!`);
+// console.log(CPFAtual.valida() ? `${CPFAtual} - CPF Válido!` : `${CPFAtual} - CPF Inválido!`);
