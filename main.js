@@ -35,7 +35,7 @@ function CriaCPF() {
   const CPFParcial = parte01 + parte02 + parte03;
   const digito01 = criaDigito(CPFParcial);
   const digito02 = criaDigito(CPFParcial + digito01);
-  return `${parte01}.${parte03}.${parte03}-${digito01}${digito02}`;
+  return `${parte01}.${parte02}.${parte03}-${digito01}${digito02}`;
 }
 
 function geraNumeroAleatorio() {
